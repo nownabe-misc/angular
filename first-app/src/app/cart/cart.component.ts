@@ -30,4 +30,6 @@ export class CartComponent implements OnInit {
     this.items = this.cartService.clearCart();
     this.checkoutForm.reset();
   }
+
+  ngOnInit(): void {}
 }
